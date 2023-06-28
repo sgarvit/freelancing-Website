@@ -1,0 +1,2619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    /* THEME COLOR */
+    --primary-color: #213363;
+    --secondary-color: #2D4356;
+    --dark-color: #000;
+    --light-color: #FFF;
+    --thin-color: #f1efef;
+    --light-dark-color: gray;
+
+    /* TEXT COLOR */
+    --heading-color: black;
+    --paragraph-color: grey;
+    --unique-color: #11009E;
+
+    /* BUTTON COLOR */
+    --button-color: #00DFA2;
+    --button-hover-color: #10b085;
+}
+
+/* =====| CONTAINER-1 STARTS |===== */
+.container-1 {
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-1 .logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 .logo img {
+    width: 40px;
+}
+
+.container-1 .logo h1 {
+    margin-top: 0.15rem;
+    font-size: 1.8rem;
+}
+
+.container-1 .nav-bar ul {
+    display: flex;
+    list-style: none;
+    padding: 8px 16px;
+    justify-content: space-between;
+}
+
+.container-1 .nav-bar ul li a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 4px 8px;
+}
+
+.container-1 .nav-bar ul li a:hover {
+    color: var(--unique-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.container-1 .others {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-between;
+}
+
+.container-1 .others h3 {
+    margin-left: 8px;
+    margin-right: 8px;
+    color: var(--heading-color);
+    font-weight: 500;
+    padding: 4px 8px;
+}
+
+.container-1 .others h3:hover {
+    color: var(--unique-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.container-1 .others button {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    color: var(--light-color);
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container-1 .others button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--light-color);
+    transition: all 0.2s ease-in-out;
+}
+
+/* =====| CONTAINER-1 ENDS|===== */
+
+
+/* =====| CONTAINER-2 STARTS|===== */
+.container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.container-2 .sub-container-1 {
+    padding: 16px;
+}
+
+.container-2 .sub-container-1 h1 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-weight: 500;
+}
+
+.container-2 .sub-container-1 h1 span {
+    border-bottom: 2px solid var(--dark-color);
+    padding-bottom: 5px;
+}
+
+.container-2 .sub-container-1 p {
+    color: var(--light-dark-color);
+    margin-bottom: 6rem;
+}
+
+.container-2 .sub-container-1 button {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    background-color: var(--button-color);
+    color: var(--light-color);
+    border-radius: 5px;
+    font-weight: 650;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.container-2 .sub-container-1 button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--light-color);
+    transition: all 0.2s ease-in-out;
+}
+
+.container-2 .sub-container-1 h6 {
+    margin-left: 2.1rem;
+    color: var(--paragraph-color);
+}
+
+.container-2 .sub-container-2 {
+    padding: 16px;
+    background-image: url(images/home-page/map-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-2 .sub-container-2 .row-1 {
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 .sub-container-2 .row-1 .card-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-1 .card-1:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.container-2 .sub-container-2 .row-1 .card-1 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-1 .card-1 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-1 .card-1 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* card-2 */
+
+.container-2 .sub-container-2 .row-1 .card-2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-1 .card-2:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.container-2 .sub-container-2 .row-1 .card-2 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-1 .card-2 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-1 .card-2 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* card-3 */
+
+.container-2 .sub-container-2 .row-1 .card-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-1 .card-3:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.container-2 .sub-container-2 .row-1 .card-3 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-1 .card-3 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-1 .card-3 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* card-4 */
+
+.container-2 .sub-container-2 .row-1 .card-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-1 .card-4:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.container-2 .sub-container-2 .row-1 .card-4 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-1 .card-4 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-1 .card-4 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* =====|ROW - 2|====== */
+
+.container-2 .sub-container-2 .row-2 {
+    background-color: var(--light-color);
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.container-2 .sub-container-2 .row-2 .card-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-2 .card-1:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.container-2 .sub-container-2 .row-2 .card-1 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-2 .card-1 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-2 .card-1 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* card-2 */
+
+.container-2 .sub-container-2 .row-2 .card-2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-2 .card-2:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.container-2 .sub-container-2 .row-2 .card-2 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-2 .card-2 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-2 .card-2 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* card-3 */
+
+.container-2 .sub-container-2 .row-2 .card-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-2 .card-3:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.container-2 .sub-container-2 .row-2 .card-3 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-2 .card-3 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-2 .card-3 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* card-4 */
+
+.container-2 .sub-container-2 .row-2 .card-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--light-dark-color);
+    border-radius: 5px;
+}
+
+.container-2 .sub-container-2 .row-2 .card-4:hover {
+    box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.container-2 .sub-container-2 .row-2 .card-4 img {
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-2 .sub-container-2 .row-2 .card-4 h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+    color: var(--unique-color);
+}
+
+.container-2 .sub-container-2 .row-2 .card-4 p {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+}
+
+/* =====| CONTAINER-2 ENDS|===== */
+
+/* MEDIA QUERY FOR EXTRA-SMALL DEVICES */
+
+@media only screen and (max-width: 600px) {
+
+    /* =====| CONTAINER-1 STARTS |===== */
+    .container-1 {
+        width: 100%;
+        display: block;
+        padding: 8px 16px;
+        align-items: center;
+    }
+
+    .container-1 .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .container-1 .logo img {
+        width: 30px;
+    }
+
+    .container-1 .logo h1 {
+        margin-top: 0.15rem;
+        font-size: 1.8rem;
+    }
+
+    .container-1 .nav-bar {
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-1 .nav-bar ul {
+        display: block;
+        list-style: none;
+        padding: 8px 16px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .container-1 .nav-bar ul li {
+        margin-bottom: 2rem;
+    }
+
+    .container-1 .nav-bar ul li a {
+        text-decoration: none;
+        color: var(--heading-color);
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .container-1 .nav-bar ul li a:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others {
+        display: block;
+        padding: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-1 .others h3 {
+        margin-bottom: 2rem;
+        color: var(--heading-color);
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .container-1 .others h3:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others button {
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        padding: 4px 10px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .container-1 .others button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* =====| CONTAINER-1 ENDS|===== */
+
+    /* =====| CONTAINER-2 STARTS|===== */
+    .container-2 {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .container-2 .sub-container-1 {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .container-2 .sub-container-1 h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        font-weight: 500;
+    }
+
+    .container-2 .sub-container-1 h1 span {
+        border-bottom: 2px solid var(--dark-color);
+        padding-bottom: 5px;
+    }
+
+    .container-2 .sub-container-1 p {
+        color: var(--light-dark-color);
+        margin-bottom: 3rem;
+    }
+
+    .container-2 .sub-container-1 button {
+        width: 300px;
+        padding: 8px;
+        border: none;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        border-radius: 5px;
+        font-weight: 650;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .container-2 .sub-container-1 button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .container-2 .sub-container-1 h6 {
+        margin-left: 2.1rem;
+        color: var(--paragraph-color);
+    }
+
+    .container-2 .sub-container-2 {
+        padding: 16px;
+        background-image: url(images/home-page/map-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container-2 .sub-container-2 .row-1 {
+        background-color: var(--light-color);
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-1 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-1 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-1 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====|ROW - 2|====== */
+
+    .container-2 .sub-container-2 .row-2 {
+        background-color: var(--light-color);
+        display: flex;
+        margin-top: 2rem;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-2 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-2 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-2 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====| CONTAINER-2 ENDS|===== */
+}
+
+/* MEDIA QUERY FOR SMALL DEVICES */
+
+@media only screen and (min-width: 600px) {
+
+    /* =====| CONTAINER-1 STARTS |===== */
+    .container-1 {
+        width: 100%;
+        display: block;
+        padding: 8px 16px;
+        align-items: center;
+    }
+
+    .container-1 .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-1 .logo img {
+        width: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .container-1 .logo h1 {
+        margin-top: 0.15rem;
+        font-size: 1.8rem;
+    }
+
+    .container-1 .nav-bar ul {
+        display: flex;
+        list-style: none;
+        margin-bottom: 1rem;
+        padding: 8px 16px;
+        justify-content: space-between;
+    }
+
+    .container-1 .nav-bar ul li a {
+        text-decoration: none;
+        color: var(--heading-color);
+        font-weight: 500;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 4px 8px;
+    }
+
+    .container-1 .nav-bar ul li a:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others {
+        display: flex;
+        padding: 8px 16px;
+        justify-content: space-evenly;
+    }
+
+    .container-1 .others h3 {
+        margin-left: 8px;
+        margin-right: 8px;
+        color: var(--heading-color);
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .container-1 .others h3:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others button {
+        border: none;
+        border-radius: 5px;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        padding: 4px 10px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .container-1 .others button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* =====| CONTAINER-1 ENDS|===== */
+
+
+    /* =====| CONTAINER-2 STARTS|===== */
+    .container-2 {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .container-2 .sub-container-1 {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .container-2 .sub-container-1 h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        font-weight: 500;
+    }
+
+    .container-2 .sub-container-1 h1 span {
+        border-bottom: 2px solid var(--dark-color);
+        padding-bottom: 5px;
+    }
+
+    .container-2 .sub-container-1 p {
+        color: var(--light-dark-color);
+        margin-bottom: 3rem;
+    }
+
+    .container-2 .sub-container-1 button {
+        width: 300px;
+        padding: 8px;
+        border: none;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        border-radius: 5px;
+        font-weight: 650;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .container-2 .sub-container-1 button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .container-2 .sub-container-1 h6 {
+        margin-left: 2.1rem;
+        color: var(--paragraph-color);
+    }
+
+    .container-2 .sub-container-2 {
+        padding: 16px;
+        background-image: url(images/home-page/map-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container-2 .sub-container-2 .row-1 {
+        background-color: var(--light-color);
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-1 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-1 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-1 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====|ROW - 2|====== */
+
+    .container-2 .sub-container-2 .row-2 {
+        background-color: var(--light-color);
+        display: flex;
+        margin-top: 2rem;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-2 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-2 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-2 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====| CONTAINER-2 ENDS|===== */
+
+}
+
+/* MEDIA QUERY FOR MEDIUM DEVICES */
+
+@media only screen and (min-width: 768px) {
+
+    /* =====| CONTAINER-1 STARTS |===== */
+    .container-1 {
+        width: 100%;
+        display: block;
+        padding: 8px 16px;
+        align-items: center;
+    }
+
+    .container-1 .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-1 .logo img {
+        width: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .container-1 .logo h1 {
+        margin-top: 0.15rem;
+        font-size: 1.8rem;
+    }
+
+    .container-1 .nav-bar ul {
+        display: flex;
+        list-style: none;
+        margin-bottom: 1rem;
+        padding: 8px 16px;
+        justify-content: space-between;
+    }
+
+    .container-1 .nav-bar ul li a {
+        text-decoration: none;
+        color: var(--heading-color);
+        font-weight: 500;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 4px 8px;
+    }
+
+    .container-1 .nav-bar ul li a:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others {
+        display: flex;
+        padding: 8px 16px;
+        justify-content: space-evenly;
+    }
+
+    .container-1 .others h3 {
+        margin-left: 8px;
+        margin-right: 8px;
+        color: var(--heading-color);
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .container-1 .others h3:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others button {
+        border: none;
+        border-radius: 5px;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        padding: 4px 10px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .container-1 .others button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* =====| CONTAINER-1 ENDS|===== */
+
+
+    /* =====| CONTAINER-2 STARTS|===== */
+    .container-2 {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .container-2 .sub-container-1 {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .container-2 .sub-container-1 h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        font-weight: 500;
+    }
+
+    .container-2 .sub-container-1 h1 span {
+        border-bottom: 2px solid var(--dark-color);
+        padding-bottom: 5px;
+    }
+
+    .container-2 .sub-container-1 p {
+        color: var(--light-dark-color);
+        margin-bottom: 3rem;
+    }
+
+    .container-2 .sub-container-1 button {
+        width: 300px;
+        padding: 8px;
+        border: none;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        border-radius: 5px;
+        font-weight: 650;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .container-2 .sub-container-1 button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .container-2 .sub-container-1 h6 {
+        margin-left: 2.1rem;
+        color: var(--paragraph-color);
+    }
+
+    .container-2 .sub-container-2 {
+        padding: 16px;
+        background-image: url(images/home-page/map-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container-2 .sub-container-2 .row-1 {
+        background-color: var(--light-color);
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-1 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-1 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-1 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====|ROW - 2|====== */
+
+    .container-2 .sub-container-2 .row-2 {
+        background-color: var(--light-color);
+        display: flex;
+        margin-top: 2rem;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-2 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-2 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-2 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====| CONTAINER-2 ENDS|===== */
+
+}
+
+/* MEDIA QUERY FOR LARGE DEVICES */
+
+@media only screen and (min-width: 992px) {
+
+
+    /* =====| CONTAINER-1 STARTS |===== */
+    .container-1 {
+        width: 100%;
+        display: block;
+        padding: 8px 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-1 .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-1 .logo img {
+        width: 30px;
+    }
+
+    .container-1 .logo h1 {
+        margin-top: 0.15rem;
+        font-size: 1.8rem;
+    }
+
+    .container-1 .nav-bar ul {
+        display: flex;
+        list-style: none;
+        padding: 8px 16px;
+        justify-content: space-evenly;
+    }
+
+    .container-1 .nav-bar ul li a {
+        text-decoration: none;
+        color: var(--heading-color);
+        font-weight: 500;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 4px 8px;
+    }
+
+    .container-1 .nav-bar ul li a:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others {
+        display: flex;
+        padding: 8px 16px;
+        justify-content: space-evenly;
+    }
+
+    .container-1 .others h3 {
+        margin-left: 8px;
+        margin-right: 8px;
+        color: var(--heading-color);
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .container-1 .others h3:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others button {
+        border: none;
+        border-radius: 5px;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        padding: 4px 10px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .container-1 .others button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* =====| CONTAINER-1 ENDS|===== */
+
+
+    /* =====| CONTAINER-2 STARTS|===== */
+    .container-2 {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .container-2 .sub-container-1 {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .container-2 .sub-container-1 h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        font-weight: 500;
+    }
+
+    .container-2 .sub-container-1 h1 span {
+        border-bottom: 2px solid var(--dark-color);
+        padding-bottom: 5px;
+    }
+
+    .container-2 .sub-container-1 p {
+        color: var(--light-dark-color);
+        margin-bottom: 3rem;
+    }
+
+    .container-2 .sub-container-1 button {
+        width: 300px;
+        padding: 8px;
+        border: none;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        border-radius: 5px;
+        font-weight: 650;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .container-2 .sub-container-1 button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .container-2 .sub-container-1 h6 {
+        margin-left: 2.1rem;
+        color: var(--paragraph-color);
+    }
+
+
+    .container-2 .sub-container-2 {
+        padding: 16px;
+        background-image: url(images/home-page/map-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container-2 .sub-container-2 .row-1 {
+        background-color: var(--light-color);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-1 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-1 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-1 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====|ROW - 2|====== */
+
+    .container-2 .sub-container-2 .row-2 {
+        background-color: var(--light-color);
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-2 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-2 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-2 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====| CONTAINER-2 ENDS|===== */
+
+}
+
+/* MEDIA QUERY FOR EXTRA-LARGE DEVICES */
+
+@media only screen and (min-width: 1200px) {
+
+
+    /* =====| CONTAINER-1 STARTS |===== */
+    .container-1 {
+        width: 100%;
+        display: flex;
+        padding: 8px 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-1 .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-1 .logo img {
+        width: 40px;
+    }
+
+    .container-1 .logo h1 {
+        margin-top: 0.15rem;
+        font-size: 1.8rem;
+    }
+
+    .container-1 .nav-bar ul {
+        display: flex;
+        list-style: none;
+        padding: 8px 16px;
+        justify-content: space-between;
+    }
+
+    .container-1 .nav-bar ul li a {
+        text-decoration: none;
+        color: var(--heading-color);
+        font-weight: 500;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 4px 8px;
+    }
+
+    .container-1 .nav-bar ul li a:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others {
+        display: flex;
+        padding: 8px 16px;
+        justify-content: space-between;
+    }
+
+    .container-1 .others h3 {
+        margin-left: 8px;
+        margin-right: 8px;
+        color: var(--heading-color);
+        font-weight: 500;
+        padding: 4px 8px;
+    }
+
+    .container-1 .others h3:hover {
+        color: var(--unique-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .container-1 .others button {
+        border: none;
+        border-radius: 5px;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        padding: 4px 10px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .container-1 .others button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    /* =====| CONTAINER-1 ENDS|===== */
+
+
+    /* =====| CONTAINER-2 STARTS|===== */
+    .container-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .container-2 .sub-container-1 {
+        padding: 16px;
+    }
+
+    .container-2 .sub-container-1 h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        font-weight: 500;
+    }
+
+    .container-2 .sub-container-1 h1 span {
+        border-bottom: 2px solid var(--dark-color);
+        padding-bottom: 5px;
+    }
+
+    .container-2 .sub-container-1 p {
+        color: var(--light-dark-color);
+        margin-bottom: 6rem;
+    }
+
+    .container-2 .sub-container-1 button {
+        width: 300px;
+        padding: 8px;
+        border: none;
+        background-color: var(--button-color);
+        color: var(--light-color);
+        border-radius: 5px;
+        font-weight: 650;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .container-2 .sub-container-1 button:hover {
+        background-color: var(--button-hover-color);
+        color: var(--light-color);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .container-2 .sub-container-1 h6 {
+        margin-left: 2.1rem;
+        color: var(--paragraph-color);
+    }
+
+    .container-2 .sub-container-2 {
+        padding: 16px;
+        background-image: url(images/home-page/map-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .container-2 .sub-container-2 .row-1 {
+        background-color: var(--light-color);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-1 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-1 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-1 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-1 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-1 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====|ROW - 2|====== */
+
+    .container-2 .sub-container-2 .row-2 {
+        background-color: var(--light-color);
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-1 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-2 */
+
+    .container-2 .sub-container-2 .row-2 .card-2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-2 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-2 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-3 */
+
+    .container-2 .sub-container-2 .row-2 .card-3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    .container-2 .sub-container-2 .row-2 .card-3 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-3 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* card-4 */
+
+    .container-2 .sub-container-2 .row-2 .card-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px solid var(--light-dark-color);
+        border-radius: 5px;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4:hover {
+        box-shadow: 0.2px 0.1px 10px 10px var(--thin-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 img {
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 h3 {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 16px;
+        color: var(--unique-color);
+    }
+
+    .container-2 .sub-container-2 .row-2 .card-4 p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+    /* =====| CONTAINER-2 ENDS|===== */
+
+}
